@@ -1,0 +1,12 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 6161
+  adminConnectors:
+    - type: http
+      port: 6162
+
+proxySellers:
+  - abcd
+  - efgh
+  - 00274b683fa1467a
