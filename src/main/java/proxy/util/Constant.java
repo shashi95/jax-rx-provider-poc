@@ -5,5 +5,5 @@ package proxy.util;
  */
 public class Constant {
 
-  public final static String BASE_URL = "http://10.47.4.233";
+  public final static String BASE_URL = "http://{elb}";
 }
