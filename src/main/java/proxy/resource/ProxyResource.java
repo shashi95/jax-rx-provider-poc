@@ -13,12 +13,12 @@ import javax.ws.rs.core.Response;
 /**
  * Created by kumar.shashi on 04/01/20.
  */
-@Path("/dashboard/payments/v1")
+@Path("/test/jax/v1")
 public class ProxyResource {
 
 
   @GET
-  @Path("/{seller_id}/history")
+  @Path("/{id}/provider")
   @ExceptionMetered
   @Produces(MediaType.APPLICATION_JSON)
   @Timed
